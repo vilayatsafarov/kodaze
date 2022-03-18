@@ -1,0 +1,47 @@
+
+.body {
+  overflow-x: hidden;
+  position: absolute;
+  top: 0px;
+  font-family: "Nunito", sans-serif;
+}
+.body {
+  scroll-behavior: smooth;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.h2{
+    font-size: 2rem;
+    color: #2E265D;
+}
+.p{
+    font-size: 1rem;
+    color: #595959;
+}
+.carder {
+  box-shadow: 1px 1px 10px 1px rgb(177, 176, 176);
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  border: none;
+  transform: scale(1);
+  color: #595959;
+}
+.carder img {
+  width: 104px;
+  height: auto;
+  padding: 10px;
+}
+.imger {
+  display: flex;
+  justify-content: center;
+}
+.carder:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-property: all;
+}

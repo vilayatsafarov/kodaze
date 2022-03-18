@@ -1,0 +1,92 @@
+.body {
+  overflow-x: hidden;
+  position: absolute;
+  top: 0px;
+  font-family: "Nunito", sans-serif;
+}
+.body {
+  scroll-behavior: smooth;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.h1 {
+  font-size: 2.5rem;
+  color: #2E265D;
+  font-weight: bold;
+  text-align: center;
+}
+.p {
+  color: #2E265D;
+  text-align: center;
+}
+.div {
+  position: relative;
+  top: 150px;
+}
+.div2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #3d27c8;
+  width: 200px;
+  height: 45px;
+  border: 2px solid #3d27c8;
+  border-radius: 50px;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+.btndiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carder {
+  box-shadow: 1px 1px 10px 1px rgb(177, 176, 176);
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  border: none;
+  transform: scale(1);
+}
+.carder img {
+  width: 104px;
+  height: auto;
+  padding: 10px;
+}
+.imger {
+  display: flex;
+  justify-content: center;
+}
+.carder:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-property: all;
+}
+.h2 {
+  font-size: 3rem;
+  color: #2E265D;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 1400px) {
+  .div {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 0px;
+    margin-bottom: 30px;
+  }
+}

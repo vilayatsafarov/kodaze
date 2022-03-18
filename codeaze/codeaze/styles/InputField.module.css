@@ -1,0 +1,23 @@
+.input{
+    height:80px;
+    border:2px solid #D5D5FC;
+}
+.input::placeholder{
+    text-indent: 30px;
+    font-size: 18px;
+    color: #D5D5FC;
+}
+.input:focus{
+    text-indent: 30px;
+}
+.submit{
+    background-color:#6161EB;
+    height: 50px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding-left: 40px;
+    padding-right: 40px;
+}

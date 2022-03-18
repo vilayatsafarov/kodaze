@@ -1,0 +1,183 @@
+.body {
+  position: absolute;
+  top: 0px;
+  font-family: "Nunito", sans-serif;
+}
+.img {
+  width: 1920px;
+  height: auto;
+}
+.h1 {
+  font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+.p {
+  color: white;
+}
+.div {
+  display: flex;
+  justify-content: center;
+}
+.bg{
+  width: 400px;
+  height:400px;
+  background-color: #361bc1;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+}
+
+.btn2 {
+  background-color: white;
+  width: 180px;
+  height: 42px;
+  border: none;
+  border-radius: 50px;
+  color: #361bc1;
+  outline: none;
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+}
+.btn2:hover{
+  background-color: #361bc1;
+}
+.btn2:hover a{
+  color: white;
+}
+.btn2:hover i{
+  color: white;
+}
+.btn2 a {
+  color: #361bc1;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.carder {
+  box-shadow: 1px 1px 10px 1px rgb(177, 176, 176);
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  border: none;
+  transform: scale(1);
+}
+.carder img {
+  width: 104px;
+  height: auto;
+  padding: 10px;
+}
+.imger {
+  display: flex;
+  justify-content: center;
+}
+.carder:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-property: all;
+}
+.h2 {
+  font-size: 3rem;
+  color: #2e265d;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 75px;
+}
+.btn {
+  width: 12rem;
+  height: 45px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  background-color: #4b4be9;
+  color: white;
+  font-size: 18px;
+  border-radius: 50px;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.span {
+  color: white;
+  border-bottom: 2px solid #3d27c8;
+  text-align: center;
+}
+.slide1 {
+  width: 550px;
+  height: 500px;
+  transform: skewY(-12deg);
+}
+.slide2 {
+  width: 600px;
+  height: 480px;
+}
+.slide3 {
+  width: 600px;
+  height: 500px;
+  transform: skewX(3deg);
+}
+.slider {
+  position: relative;
+  width: auto;
+  height: auto;
+  bottom: 125px;
+}
+.h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #2e265d;
+}
+.p3 {
+  text-align: center;
+  color: rgb(71, 69, 69);
+}
+@media only screen and (max-width: 1400px) {
+  .div {
+    display: flex;
+    justify-content: center;
+  }
+  .carder {
+    position: relative;
+    bottom: 80px;
+  }
+  .imger {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .slider {
+    position: relative;
+    width: auto;
+    height: auto;
+    bottom: 0px;
+  }
+  .h3 {
+    text-align: left;
+  }
+  .p3 {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .div {
+    position: relative;
+    bottom: 150px;
+  }
+  .col2 {
+    position: relative;
+    bottom: 180px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .img {
+    width: 100%;
+    height: 1200px;
+  }
+}

@@ -1,0 +1,69 @@
+.form {
+  position: relative;
+  bottom: 55px;
+  z-index: 3;
+}
+.input {
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  height: 50px;
+  text-indent: 10px;
+  box-shadow: 1px 1px 10px 1px rgb(177, 176, 176);
+}
+.input::placeholder {
+  color: rgb(155, 152, 152);
+  font-size: 1.1rem;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.Img {
+  width:80%;
+  height:270px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div {
+  border-radius: 15px;
+  border: none;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.span1 {
+  font-size: 1.25rem;
+  color: #257bff;
+  font-weight: bold;
+}
+.span2 {
+  color: rgb(104, 104, 104);
+  font-size: 16px;
+  font-weight: 400;
+}
+.btn {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.h {
+  font-size: 1.5rem;
+  color: #257bff;
+  font-weight: bold;
+}
+.p {
+  font-size: 1rem;
+
+}
+@media only screen and (max-width: 800px) {
+  .col {
+    position: relative;
+    top: 30px;
+  }
+}

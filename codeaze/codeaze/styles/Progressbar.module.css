@@ -1,0 +1,24 @@
+.progressBarContainer{
+    position: fixed;
+    z-index: 2;
+    background-color: #5142D4;
+    width: 100%;
+    top: 64px;
+    left: 0;
+    height: 8px;
+}
+.progressBar{
+    transform-origin: top left;
+    transform: scale(0,0);
+    background-color: white;
+    opacity: 0;
+}
+.progressBarContainer, .progressBar{
+        height: 8px;
+        
+}
+@media only screen and (max-width:600px){
+    .progressBarContainer{
+        display: none;
+    }
+}

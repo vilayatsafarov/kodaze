@@ -1,0 +1,12 @@
+.arrow {
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+  background-color: #361bc1;
+  border-radius: 300px;
+  cursor: pointer;
+}
+.arrow:hover{
+transform: rotate(360deg) scale(1.1);
+transition-duration: 0.3s;
+}

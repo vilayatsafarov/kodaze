@@ -1,0 +1,123 @@
+.body {
+  overflow-x: hidden;
+  position: absolute;
+  top: 0px;
+  font-family: "Nunito", sans-serif;
+  background-color: #fdfdfe;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+.h1 {
+  text-align: center;
+  color: #2E265D;
+  font-weight: bold;
+  margin-top: 70px;
+  font-size: 3rem;
+}
+.input {
+  width: 40rem;
+  height: 60px;
+  border: 2px solid #2E265D;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.input::placeholder {
+  text-align: center;
+  color: #2E265D;
+  font-size: 18px;
+  font-weight: 500;
+}
+.input:focus {
+  border: 2px solid blue;
+  text-indent: 10px;
+}
+.textarea {
+  border: 2px solid #2E265D;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.textarea:focus {
+  text-indent: 10px;
+}
+.textarea::placeholder {
+  text-align: center;
+  color: #2E265D;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn {
+  width: 40rem;
+  height: 60px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color: #6161eb;
+  color: white;
+  font-size: 18px;
+}
+.carder {
+  box-shadow: 1px 1px 10px 1px rgb(177, 176, 176);
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  border: none;
+  transform: scale(1);
+}
+.carder img {
+  width: 105px;
+  height: 96px;
+  padding: 10px;
+}
+.imger {
+  display: flex;
+  justify-content: center;
+}
+.carder:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  transition-property: all;
+}
+.select{
+ width: auto;
+ height: 60px;
+ position: relative;
+ top:20px; 
+}
+.input2 {
+  width: 35rem;
+  height: 60px;
+  border: 1.5px solid #2E265D;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.input2::placeholder {
+  text-align: center;
+  color:grey;
+  font-size: 18px;
+  font-weight: 500;
+}
+.input2:focus {
+  border: 2px solid blue;
+  text-indent: 10px;
+}
+.selectinput{
+  position: relative;
+  left: 250px;
+}
+.phone {
+  width: 20rem;
+  height: 60px;
+  border: 1.5px solid #2E265D;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.phone .form-control{
+  background-color: red;
+}
+
